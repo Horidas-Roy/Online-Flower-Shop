@@ -178,7 +178,7 @@
   margin-right: 12px;
 }
 .latest-deal-email {
-  padding-left:10px;
+  padding-left: 10px;
 }
 .latest-deal-container {
   width: 75vw;
@@ -200,4 +200,34 @@
   color: #272727;
   font-size: 28px;
   font-weight: 800;
+}
+/* footer section related style */
+#copyright {
+  text-align: center;
+}
+.footer-head {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+}
+.footer-tittle {
+  color: #e55473;
+  
+}
+.footer-description {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-container {
+  width: 100vw;
+  height: 50vh;
+  background: #111010;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
