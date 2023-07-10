@@ -107,3 +107,24 @@
   margin-top: 20px;
   text-decoration-line: underline;
 }
+/* service container related style */
+.service-container {
+  width: 67vw;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 50px 50px;
+}
+.service {
+  text-align: center;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+}
