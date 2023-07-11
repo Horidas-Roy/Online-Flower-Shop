@@ -116,7 +116,7 @@
 .bonus-section-container{
   width: 100vw;
   height: 60vh;
-  background: url("./asset/bonus.jpg"),linear-gradient(45deg,rgb(189, 155, 155),rgb(130, 76, 76));
+  background: url("./asset/bonus.png"),linear-gradient(45deg,rgb(189, 155, 155),rgb(130, 76, 76));
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@
   width: 75vw;
   height: 52vh;
   margin: auto;
-  background: url("./asset/latest_1.png");
+  background: url("./asset/latest1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
