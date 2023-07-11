@@ -46,12 +46,17 @@
 .banner-pic {
   width: 420px;
   margin-top: 50px;
+  margin-bottom: 0px;
+}
+.banner-photo{
+  display: flex;
+  align-items: baseline;
 }
 .banner-tittle {
   color: #272727;
   font-family: Lato;
   font-size: 52px;
-  font-weight: 900;
+  font-weight: bold;
 }
 .banner-description {
   color: rgba(39, 39, 39, 0.6);
@@ -106,6 +111,47 @@
   font-size: 16px;
   margin-top: 20px;
   text-decoration-line: underline;
+}
+/* Shop story section Or Bonus section related style */
+.bonus-section-container{
+  width: 100vw;
+  height: 60vh;
+  background: url("./Flower_Asset/bonus.jpg"),linear-gradient(45deg,rgb(189, 155, 155),rgb(130, 76, 76));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20vh;
+  
+}
+
+.bonus-tittle{
+  color: white;
+  text-align: center;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding-top: 20vh;
+  font-size: 30px;
+  padding-bottom:5vh ;
+}
+.bonus-button-container{
+  text-align: center;
+}
+.bonus-btn{
+  border: 1px solid white;
+  padding: 10px 15px;
+  background: transparent;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.2s ease-in-out;
+}
+.bonus-btn:hover{
+  background: gray;
+  color: goldenrod;
 }
 /* service container related style */
 .service-container {
@@ -165,6 +211,7 @@
 }
 .insta-pic {
   width: 220px;
+  border-radius: 2px;
 }
 /* Latest deals related style */
 .latest-deal-email {
@@ -204,6 +251,7 @@
 /* footer section related style */
 #copyright {
   text-align: center;
+  color: #FFFFFF66;
 }
 .footer-head {
   text-align: center;
@@ -212,14 +260,13 @@
 }
 .footer-tittle {
   color: #e55473;
-  
 }
 .footer-description {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 32px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 .footer-container {
