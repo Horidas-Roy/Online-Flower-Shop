@@ -34,7 +34,7 @@
 /* banner related style */
 .banner-section {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   background: rgba(229, 84, 115, 0.1);
 }
 .banner-container {
